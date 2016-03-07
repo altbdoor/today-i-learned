@@ -1,6 +1,8 @@
 Three Letter Combo in String
 ===
 
+March 7, 2016
+
 Original question from [>>/g/53346630](https://archive.rebeccablacktech.com/g/thread/S53346630)
 
 > Find all 3-letter-strings that can be constructed by combining letter from the input string in sequence. No duplication allowed, unless it occurred in the input.

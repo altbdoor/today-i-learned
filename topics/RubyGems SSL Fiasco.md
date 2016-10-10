@@ -11,7 +11,7 @@ So a few days ago, I got to know that Jekyll is now v3.3.0, so I thought I'd try
 Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)
 ```
 
-Apparently, this is a common issue. RubyGems update their SSL certs from time to time, and users are expected to update their RubyGems. Now, this is all good practice, unless if you are on Windows.
+Apparently, this is a common issue. RubyGems update their SSL certs from time to time, and users are expected to update their RubyGems. Now, this is all good practice, unless if you are stuck on Windows with RubyInstaller.
 
 Oddly, I went to RubyGems' Google Group first instead of GitHub issues, but lucky for me, my answer was there. Someone had made a [similar complain](https://groups.google.com/forum/#!topic/rubygems-org/jcqpXXvOo0c) about this a few days ago, and was redirected to a documentation on [how to update the SSL certificates](http://guides.rubygems.org/ssl-certificate-update/).
 

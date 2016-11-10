@@ -41,6 +41,8 @@ kramdown:
 
 With all that done, I got myself a working Jekyll v2.5.3 at 3.86 MB. A tad larger than v1.2.0, but still acceptable. For more technical details, you can check out the [release page for my fork](https://github.com/altbdoor/jekyll-exe/releases/tag/stable-v2.5.3). I will hopefully build v3.x as well in the future (`--incremental` sounds good to have), but for now v2.5.3 serves me well.
 
+---
+
 #### References
 
 - http://www.nickw.it/jekyll-dot-exe/

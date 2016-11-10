@@ -27,6 +27,8 @@ With some free time at hand, I decided to try it out with plain, browser-side JS
 
 The whole source can be found in [Gist](https://gist.github.com/altbdoor/0c47bc4034449645285fb70913bea6d9). It is interesting to code for this, but another language would be more appropriate. But when one considers the fact that the output HTML can barely be opened by browsers...
 
+---
+
 #### References
 
 - http://stackoverflow.com/questions/13938686/can-i-load-a-local-file-into-an-html-canvas-element

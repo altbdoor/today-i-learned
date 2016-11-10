@@ -41,6 +41,8 @@ I did not attempt to follow the new structure of the master branch, in fear that
 
 I do wonder if I was supposed to update RubyGems to 2.6.7 directly then.
 
+**Update:** RubyGems have updated their [guide](http://guides.rubygems.org/ssl-certificate-update/).
+
 ---
 
 #### References

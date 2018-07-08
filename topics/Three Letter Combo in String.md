@@ -9,10 +9,10 @@ Original question from [>>/g/53346630](https://archive.rebeccablacktech.com/g/th
 > 
 > \>Example
 > ```
-input: richardstallman
-valid combo: rll
-invalid combo: llr # letters don't occur in this sequence in the input
-```
+> input: richardstallman
+> valid combo: rll
+> invalid combo: llr # letters don't occur in this sequence in the input
+> ```
 > 
 > Question before you start:
 > 

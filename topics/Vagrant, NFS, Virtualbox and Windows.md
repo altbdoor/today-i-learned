@@ -93,6 +93,18 @@ if [[ -d /srv/projects/ ]]; then
 fi
 ```
 
+---
+
+Update: July 23, 2018
+
+It seems that setting up a private network on Vagrant would cause some issues. I could not be sure what is the real cause, but it boils down to `systemd-networkd-wait-online`, which is waiting for the network to get ready, but the network will never get ready. So Ubuntu will attempt to wait until the service times out, which is about 10 to 30 minutes.
+
+The unofficial solution is to reduce the timeout duration in `/lib/systemd/system/systemd-networkd-wait-online.service`, at the `ExecStart` line.
+
+```diff
+- ExecStart=/lib/systemd/systemd-networkd-wait-online
++ ExecStart=/lib/systemd/systemd-networkd-wait-online --timeout 1
+```
 
 ---
 

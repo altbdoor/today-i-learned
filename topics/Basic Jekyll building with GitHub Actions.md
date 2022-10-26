@@ -90,6 +90,25 @@ With Jekyll 4.x, everything seems to be fine. But I prefer to use the older Jeky
 
 ---
 
+Update: October 27, 2022
+
+I sort of got _even lazier_ over the years, and instead of maintaining my own `Gemfile.lock`, I've decided to offload that to the GitHub actions too.
+
+```yml
+      # i'm too lazy to maintain a Gemfile.lock, so i generated the lock file on the go
+      - name: generate gem file lock
+        working-directory: website
+        run: |
+          bundle init
+          bundle add jekyll --skip-install --version "~> 3.9"
+          bundle add kramdown-parser-gfm --skip-install --version "~> 1.1"
+          bundle lock
+```
+
+The last commit I could find me doing this was around March 2022, but I could almost swear that I started doing this a lot earlier...
+
+---
+
 #### References
 
 - https://stackoverflow.com/questions/62298627/github-api-cors-policy

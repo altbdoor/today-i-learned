@@ -47,10 +47,10 @@ by `echo $SHELL`.
 
 ### Funky shell environment?
 
-This was not a thing for me with my old Macbook, but after this far in, Bash is
-still not fully working.
+This was not a thing for me with my old Intel Macbook, but after this far in, Bash is
+still not fully working in the M2 Macbook.
 
-It would appear that we need to run `brew shellenv` for Bash to work properly.
+It would appear that we need to run `brew shellenv` [for Bash to work properly](https://stackoverflow.com/a/65505326).
 
 ```sh
 # i added these into my global .bash_profile
@@ -68,6 +68,7 @@ Seems pretty much the same, except:
 - I have a symlink from `/usr/local/bin/bash` to `/usr/local/Cellar/bash/5.2.21/bin/bash`.
   I cannot recall if this was Homebrew's actions or mine.
 - Because of the symlink, my `/etc/shells` only point to `/usr/local/bin/bash`.
+- Maybe the `/opt/homebrew` path is Homebrew's way of handling the new ARM chips?
 
 ---
 
@@ -75,3 +76,4 @@ Seems pretty much the same, except:
 
 - https://brew.sh/
 - https://stackoverflow.com/a/77052639
+- https://stackoverflow.com/a/65505326

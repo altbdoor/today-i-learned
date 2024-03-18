@@ -29,7 +29,7 @@ This will install the _neue_ Bash in `/opt/homebrew/bin/bash`.
 
 ### Add the new Bash as an available shell option
 
-```console
+```sh
 # edit the shell options
 sudo vim /etc/shells
 

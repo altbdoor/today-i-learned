@@ -3,10 +3,6 @@ Change to Bash in MacOS
 
 Mar 18, 2024
 
-_P.S. Its so dumb how there is so many Mac colleagues asking me (a primarily Windows user), how to fix their Mac problems._
-_And similarly, why their terminal looks so scarce compared to mine because they can't be bothered to learn how to rice ZSH._
-_Like my fellow sibling in Christ, you are using a Mac!_
-
 I prefer to use Bash. Period.
 
 Having the same terminal emulator across Windows, MacOS, and Linux really helps to stifle any weird
@@ -55,7 +51,7 @@ It would appear that we need to run `brew shellenv` [for Bash to work properly](
 ```sh
 # i added these into my global .bash_profile
 if [[ -f /opt/homebrew/bin/brew ]]; then
-    eval $(/opt/homebrew/bin/brew shellenv)
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 ```
 

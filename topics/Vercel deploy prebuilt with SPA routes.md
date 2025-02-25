@@ -122,7 +122,7 @@ Here is how we configure our `vercel.json`:
 
 `node --version` is to just get a 0 exit code. Feel free to use whatever you like.
 The `rewrites` part is recommended based on the [Legacy SPA Fallback](https://vercel.com/docs/projects/project-configuration#legacy-spa-fallback).
-In hindsight, it took an embarassingly long for me to find that documentation page.
+In hindsight, it took an embarassingly long time for me to find that documentation page.
 And with that, we run `vercel build`.
 
 ```console
